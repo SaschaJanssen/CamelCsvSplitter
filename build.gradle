@@ -1,0 +1,25 @@
+
+apply plugin: 'java-library'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    implementation group: 'org.apache.camel', name: 'camel-core', version: '2.19.3'
+    implementation group: 'org.apache.camel', name: 'camel-csv', version: '2.19.3'
+
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation group: 'org.apache.camel', name: 'camel-test', version: '2.19.3'
+
+    testCompile group: 'org.awaitility', name: 'awaitility', version: '3.0.0'
+
+}
+
