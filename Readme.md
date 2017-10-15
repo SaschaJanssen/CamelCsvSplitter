@@ -1,3 +1,5 @@
+![Travis Status](https://travis-ci.org/SaschaRodekamp/CamelCsvSplitter.svg?branch=master)
+
 A simple test implementation of the Composed Message Processor using apache camel.
 
 ![Composed Message Processor](http://www.enterpriseintegrationpatterns.com/img/DistributionAggregate.gif)
